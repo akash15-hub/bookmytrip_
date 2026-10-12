@@ -1,0 +1,156 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey Begins</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="logo">JourneyGo</div>
+            <div class="contact-search">
+                <div class="support">Call 24/7 support <span>+1 (800) 555-0199</span></div>
+                <div class="search-box"><input type="text" placeholder="Search entire website here"></div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="menu-toggle" id="mobile-menu">☰ Menu</div>
+            <ul class="nav-links" id="nav-links-list">
+                <li class="dropdown">
+                    <a href="#">Hotels ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Hotels in India</a></li>
+                        <li><a href="#">International Hotels</a></li>
+                        <li><a href="#">International Hostels</a></li>
+                        <li><a href="#">Popular Hotels in Asia</a></li>
+                        <li><a href="#">Popular Hotels in Europe</a></li>
+                        <li><a href="#">Activities</a></li>
+                        <li><a href="#">Hotel Deals of the Week</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Flights</a></li>
+                <li><a href="#">Vacations</a></li>
+                <li><a href="#">Hot Deals</a></li>
+                <li><a href="#">Travel Guides</a></li>
+                <li><a href="#">Blogs</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button class="btn-signup">SIGN UP</button>
+                <button class="btn-account">MY ACCOUNT</button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="hero-banner">
+            <div class="hero-text-box">
+                <h2>Grand Resort, Bali, Indonesia</h2>
+                <p>Experience tropical luxury with private pool villas and ocean views.</p>
+                <div class="price">$1450 All Inclusive Package</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="booking-container">
+        <div class="booking-form">
+            <div class="form-group">
+                <label>What?</label>
+                <select id="bookWhat"><option>Hotels</option><option>Flights</option><option>Vacations</option></select>
+            </div>
+            <div class="form-group">
+                <label>Where?</label>
+                <select id="bookWhere"><option>Location</option><option>Bali</option><option>Maldives</option><option>Kyoto</option></select>
+            </div>
+            <div class="form-group">
+                <label>When?</label>
+                <select id="bookWhen"><option>Date</option><option>Next Week</option><option>Next Month</option></select>
+            </div>
+            <div class="form-group">
+                <label>What?</label>
+                <select id="bookRooms"><option>Rooms</option><option>1 Room</option><option>2 Rooms</option></select>
+            </div>
+            <div class="form-group">
+                <label>What?</label>
+                <select id="bookAdults"><option>Adults</option><option>1 Adult</option><option>2 Adults</option></select>
+            </div>
+            <div class="form-group btn-group">
+                <button class="btn-search" id="bookSearchBtn">SEARCH</button>
+            </div>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <div class="section-title">Popular Hotels</div>
+        <div class="cards-grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427" alt="Hotel">
+                <div class="card-body">
+                    <div class="card-info"><h3>The Oberoi</h3><p>Agra, India</p></div>
+                    <div class="card-price">$1850</div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750" alt="Hotel">
+                <div class="card-body">
+                    <div class="card-info"><h3>Santorini Suite</h3><p>Santorini, Greece</p></div>
+                    <div class="card-price">$1600</div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb" alt="Hotel">
+                <div class="card-body">
+                    <div class="card-info"><h3>Marina Bay</h3><p>Singapore City</p></div>
+                    <div class="card-price">$1350</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-title">Hot Deals</div>
+        <div class="deals-grid">
+            <div class="deal-card deal-1">
+                <div class="deal-overlay">
+                    <div><h4>MEDITERRANEAN ESCAPE</h4><span>Coastal gems & cruises</span></div>
+                    <span>From $299</span>
+                </div>
+            </div>
+            <div class="deal-card deal-2">
+                <div class="deal-overlay">
+                    <div><h4>ALPINE WONDERLAND</h4><span>Wooden chalets & ski passes</span></div>
+                    <span>From $350</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="latest-blog">
+            <div class="blog-tag">Latest Blogs</div>
+            <div class="blog-text">Top 10 hidden beaches you must visit this year</div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul><li><a href="#">About</a></li><li><a href="#">Terms</a></li><li><a href="#">Privacy</a></li></ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul><li><a href="#">Contact</a></li><li><a href="#">FAQ</a></li></ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow us</h4>
+                <ul><li><a href="#">Facebook</a></li><li><a href="#">Twitter</a></li></ul>
+            </div>
+            <div class="footer-col">
+                <h4>Offers</h4>
+                <div class="newsletter-form"><input type="email" placeholder="Email"><button>JOIN</button></div>
+            </div>
+        </div>
+        <div class="footer-bottom">&copy; 2026 JourneyGo</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
